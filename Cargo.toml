@@ -8,3 +8,14 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1", features = ["full"] }
 mini-redis = "0.4"
+bytes = "1"
+
+[[bin]]
+name = "server"
+test = false
+bench = false
+
+[[bin]]
+name = "client"
+test = false
+bench = false
